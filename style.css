@@ -1,6 +1,5 @@
-/* Base styles */
 html {
-    font-size: 16px; /* 1rem = 16px */
+    font-size: 16px; 
 }
 
 body {
@@ -8,10 +7,8 @@ body {
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
     color: #000;
-    background-color: #0e11c271; /* dark, smooth background */
+    background-color: #0e11c271; 
 }
-
-/* Header */
 header {
     background-color: rgba(0, 130, 63, 0.6);
     padding: 1rem 2rem;
@@ -20,14 +17,12 @@ header {
     text-align: center;
 }
 
-/* Main container */
 main {
     max-width: 90%;
     margin: 0 auto;
     padding: 2rem 1rem;
 }
 
-/* Paragraph below header */
 body > p {
     text-align: center;
     margin: 1rem 0 2rem;
@@ -35,8 +30,8 @@ body > p {
 
 .full-width-chart {
 
-    max-width: 1200px;       /* optional max width */
-    margin: 0 auto 2rem;    /* center horizontally and add bottom spacing */
+    max-width: 1200px;       
+    margin: 0 auto 2rem;    
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 15px;
